@@ -1,0 +1,189 @@
+html,body{
+    margin: 0;
+    background-color:  #17202a ;
+}
+
+/* MAIN - MENU */
+main{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main h1{
+    color:  #2ecc71 ;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#alienicon{
+    width: 200px;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+.btn-color{
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-color:hover{
+    opacity: .9;
+}
+
+#btn-color1{
+    background-color:  #27ae60 ;
+    margin-right: 10px;
+}
+#btn-color2{
+    background-color:  #f1c40f  ;
+}
+#btn-color3{
+    background-color:  #3498db ;
+    margin-left: 10px;
+}
+
+/* ALIENLATOR */
+
+#alienlator{
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    background: linear-gradient(90deg,  #2ecc71 50%, #28b463 50%);
+    border: 2px solid black ;
+}
+#result{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color:   #040f1b  ;
+    border: none;
+    margin-bottom: 10px;
+    color: red;
+    font-family: monospace;
+    font-size: 25px;
+}
+#row1{
+    text-align: right;
+}
+
+#row2, #row3, #row4, #row5{
+    text-align: center;
+}
+
+#row1 input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    margin: 4px;
+    border: none;
+    font-weight: 600;
+    box-shadow: black 0px 2px;
+}
+
+#row2 input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    margin: 4px;
+    margin-top: 15px;
+    border: none;
+    font-weight: 600;
+    box-shadow: black 0px 2px;
+    
+}
+#row3 input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    margin: 4px;
+    margin-top: 15px;
+    border: none;
+    font-weight: 600;
+    box-shadow: black 0px 2px;
+    
+}
+#row4 input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    margin: 4px;
+    margin-top: 15px;
+    border: none;
+    font-weight: 600;
+    box-shadow: black 0px 2px;
+    
+}
+#row5 input{
+    padding: 5px 20px 5px 20px;
+    border-radius: 100%;
+    margin: 4px;
+    margin-top: 15px;
+    border: none;
+    font-weight: 600;
+    box-shadow: black 0px 2px;
+}
+input:hover{
+    color:red;
+    transition: .2s;
+    background-color:  #dedede ;
+    
+}
+
+#equal{
+    background-color:greenyellow;
+}
+#equal:hover{
+    opacity: .8;
+}
+#equal:active{
+    color: black;
+    background:  #82e0aa ;
+}
+
+input:active{
+    color: black;
+    background: #58d68d ;
+}
+
+#madeBy{
+    text-align: right;
+    padding: 20px;
+}
+#madeBy a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#madeBy a:hover{
+    transition: .1s;
+    color: white;
+}
+
+/*MEDIAS QUERIES*/
+
+@media only screen and (max-width: 700px){
+    #alienicon{
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 520px){
+    #alienicon{
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #alienicon{
+        width: 110px;
+    }
+    #btn-nav{
+        display: grid;
+        grid-template-rows: repeat(3, 50px);
+        
+    }
+}
+
